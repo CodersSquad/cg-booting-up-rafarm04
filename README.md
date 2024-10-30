@@ -20,12 +20,12 @@ This lab stands to prepare the moderngl development environment. Below the steps
 
 ## How to run your program
 
-# Dependencies
+### Dependencies
 To run all the programs you'll need to install some dependecies.
 Use the following command:
 - pip install pygame moderngl PyOpenGL PyOpenGL_accelerate Pillow glm
 
-# Directory Structure
+### Directory Structure
 '''
 your_project_directory/
 │
@@ -43,7 +43,9 @@ your_project_directory/
 └── README.md          # This README file
 '''
 
-# How to run
+### How to run
+After making sure you're on the right directory structure of your project, you can do the following.
+On your terminal run the following commands:
 - python3 01_hello_world.py
 - python3 06_multiple_objects.py
 - python3 09_models_and_images.py
