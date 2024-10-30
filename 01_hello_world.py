@@ -15,6 +15,8 @@ class Scene:
     def __init__(self):
         self.ctx = moderngl.get_context()
 
+        self.font = pygame.font.SysFont("Arial", 48)
+
     def render(self):
         now = pygame.time.get_ticks() / 1000.0
 
