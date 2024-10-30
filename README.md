@@ -20,17 +20,32 @@ This lab stands to prepare the moderngl development environment. Below the steps
 
 ## How to run your program
 
-```
-# Update this section with instructions on how to run your programs. 
+# Dependencies
+To run all the programs you'll need to install some dependecies.
+Use the following command:
+- pip install pygame moderngl PyOpenGL PyOpenGL_accelerate Pillow glm
 
-# Consider that these instructions will be executed 
-in a completely new linux-based machine (Ubuntu 22.04),
-so, instructions for dependencies installation must be added.
+# Directory Structure
+your_project_directory/
+│
+├── examples/
+│   ├── models/
+│   │   ├── crate.obj
+│   │   └── lowpoly_toy_car.obj
+│   └── texture/
+│       └── crate.png / tec.png
+├── objloader.py       # Your OBJ loader implementation
+#Scripts
+├── 01_hello_world.py  
+├── 06_multiple_objects.py  
+├── 09_models_and_images.py  
+└── README.md          # This README file
 
-# It's highly recommended to use python virtual envs. 
-You may take a look on:
-https://docs.python.org/3/library/venv.html
-```
+# How to run
+- python3 01_hello_world.py
+- python3 06_multiple_objects.py
+- python3 09_models_and_images.py
+
 
 ## Grading Policy
 
