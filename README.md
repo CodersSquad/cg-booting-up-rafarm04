@@ -26,6 +26,7 @@ Use the following command:
 - pip install pygame moderngl PyOpenGL PyOpenGL_accelerate Pillow glm
 
 # Directory Structure
+'''
 your_project_directory/
 │
 ├── examples/
@@ -40,6 +41,7 @@ your_project_directory/
 ├── 06_multiple_objects.py  
 ├── 09_models_and_images.py  
 └── README.md          # This README file
+'''
 
 # How to run
 - python3 01_hello_world.py
